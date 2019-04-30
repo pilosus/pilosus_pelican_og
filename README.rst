@@ -7,7 +7,14 @@ Expand Article and Page entities with Open Graph Protocol tags.
 Installation
 ------------
 
-1. Place plugin in a directory, e.g ``plugins/pilosus_pelican_og``
+1. Place plugin in a directory, e.g ``plugins/pilosus_pelican_og``.
+   You can clone it or add it to your blog repo as a submodule:
+
+.. code-block:: bash
+
+  $ cd /path/to/your/static/site/repo
+  $ git submodule add https://github.com/pilosus/pilosus_pelican_og plugins/pilosus_pelican_og
+
 
 2. Add plugins configurations in a settings file:
 
