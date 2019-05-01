@@ -67,7 +67,7 @@ License
 -------
 
 This work is based upon an original work of ``whiskyechobravo`` that
-can be found under: https://github.com//pelican-open_graph
+can be found under: https://github.com/whiskyechobravo/pelican-open_graph
 
 This work is licensed under GNU AFFERO GENERAL PUBLIC LICENSE Version 3
 
