@@ -54,6 +54,7 @@ def open_graph_tag(item):
     
     image = item.metadata.get('og_image', '')
     if image:
+        image = image.replace('{static}', item.settings.get('SITEURL', ''))
         og_tags.append(('og:image', image))
     else:
         if default_image:
